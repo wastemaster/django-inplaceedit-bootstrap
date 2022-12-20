@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU Lesser General Public License
 # along with this software.  If not, see <http://www.gnu.org/licenses/>.
 from django.conf import settings
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 
 INPLACEEDIT_EDIT_TOOLTIP_TEXT = (getattr(settings, 'INPLACEEDIT_EDIT_TOOLTIP_TEXT', None) and
